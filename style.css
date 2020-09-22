@@ -1,0 +1,27 @@
+* {
+    align-items: center;
+    align-self: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+table {
+    align-self: center;
+    width: 300px;
+    align-content: center;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: black;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+}
